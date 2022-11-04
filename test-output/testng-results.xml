@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[onTestStart:----DepartingFromDropDown]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess:--DepartingFromDropDown]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart:----getRoundtripTest]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess:--getRoundtripTest]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart:----oneWayTest]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess:--oneWayTest]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart:----passengerDropDown]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess:--passengerDropDown]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44698" started-at="2022-11-03T09:45:38 IST" finished-at="2022-11-03T09:46:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44698" started-at="2022-11-03T09:45:38 IST" finished-at="2022-11-03T09:46:23 IST">
+      <class name="com.TestCases.FlightDropDownTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="launchBrowser" is-config="true" duration-ms="15389" started-at="2022-11-03T09:45:38 IST" finished-at="2022-11-03T09:45:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="DepartingFromDropDown()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="DepartingFromDropDown" duration-ms="1219" started-at="2022-11-03T09:45:54 IST" finished-at="2022-11-03T09:45:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart:----DepartingFromDropDown]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess:--DepartingFromDropDown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DepartingFromDropDown -->
+        <test-method status="PASS" signature="tearMethod(org.testng.ITestResult)[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="tearMethod" is-config="true" duration-ms="807" started-at="2022-11-03T09:45:55 IST" finished-at="2022-11-03T09:45:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DepartingFromDropDown status=SUCCESS method=FlightDropDownTest.DepartingFromDropDown()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811] output=onTestStart:----DepartingFromDropDown]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearMethod -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="launchBrowser" is-config="true" duration-ms="7188" started-at="2022-11-03T09:45:56 IST" finished-at="2022-11-03T09:46:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="getRoundtripTest()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="getRoundtripTest" duration-ms="1134" started-at="2022-11-03T09:46:03 IST" finished-at="2022-11-03T09:46:04 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart:----getRoundtripTest]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess:--getRoundtripTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getRoundtripTest -->
+        <test-method status="PASS" signature="tearMethod(org.testng.ITestResult)[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="tearMethod" is-config="true" duration-ms="761" started-at="2022-11-03T09:46:04 IST" finished-at="2022-11-03T09:46:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getRoundtripTest status=SUCCESS method=FlightDropDownTest.getRoundtripTest()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811] output=onTestStart:----getRoundtripTest]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearMethod -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="launchBrowser" is-config="true" duration-ms="6457" started-at="2022-11-03T09:46:05 IST" finished-at="2022-11-03T09:46:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="oneWayTest()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="oneWayTest" duration-ms="281" started-at="2022-11-03T09:46:11 IST" finished-at="2022-11-03T09:46:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart:----oneWayTest]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess:--oneWayTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneWayTest -->
+        <test-method status="PASS" signature="tearMethod(org.testng.ITestResult)[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="tearMethod" is-config="true" duration-ms="767" started-at="2022-11-03T09:46:12 IST" finished-at="2022-11-03T09:46:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=oneWayTest status=SUCCESS method=FlightDropDownTest.oneWayTest()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811] output=onTestStart:----oneWayTest]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearMethod -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="launchBrowser" is-config="true" duration-ms="9382" started-at="2022-11-03T09:46:12 IST" finished-at="2022-11-03T09:46:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="passengerDropDown()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="passengerDropDown" duration-ms="472" started-at="2022-11-03T09:46:22 IST" finished-at="2022-11-03T09:46:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart:----passengerDropDown]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess:--passengerDropDown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- passengerDropDown -->
+        <test-method status="PASS" signature="tearMethod(org.testng.ITestResult)[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811]" name="tearMethod" is-config="true" duration-ms="769" started-at="2022-11-03T09:46:22 IST" finished-at="2022-11-03T09:46:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passengerDropDown status=SUCCESS method=FlightDropDownTest.passengerDropDown()[pri:0, instance:com.TestCases.FlightDropDownTest@1e7c7811] output=onTestStart:----passengerDropDown]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearMethod -->
+      </class> <!-- com.TestCases.FlightDropDownTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
